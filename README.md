@@ -4,7 +4,7 @@ This Liquidsoap code can be used to store autocue data in Azuracast.
 If you aren't aware of the Liquidsoap `autocue` feature yet, please read the **Azuracast Autocue Quickstart Manual** at the bottom of this Read Me.
 
 ## What it does
-Each time a song starts playing, this script will check if autocue data was determined by Liquidsoap `autocue`. If so, it will update below listed data of the related song/track in Azuracast. You can see the result on Media "Visual Cue Editor" or "Advanced" tab.
+Each time a song starts playing, this script will check if autocue data was determined by Liquidsoap `autocue`. If so, it will update below listed data of the related song/track in Azuracast. You can see the result on Media "Visual Cue Editor" or "Advanced" tab. **Please consider that existing cue/fade/amplify data could be overwritten!**
 
 - cue in (`liq_cue_in`)
 - cue out (`liq_cue_in`)
